@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "startUrls": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "maxPages": {
+      "type": "number",
+      "minimum": 1
+    }
+  },
+  "required": ["startUrls"]
+}
